@@ -1,0 +1,12 @@
+<h1>Encoding a Message! </h1>
+
+<form action="show" method="post" accept-charset="utf-8">
+  <label for="shift"> Offset Letter: </label>
+  <input type="text" name="shift" id="shift" />   <%# name is how you access it in params field %>
+
+  <label for="message"> Your Message: </label>
+  <input type="text" name="message" id="message" />
+
+  <input type=submit value="Encode!" />
+  <%# The type="submit" is what makes it look like a button %>
+</form>
