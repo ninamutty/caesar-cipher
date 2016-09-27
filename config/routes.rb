@@ -3,7 +3,10 @@ Rails.application.routes.draw do
 
   get 'decoding/new'
 
+  post 'decoding/show'
   get 'decoding/show'
+
+
 
   get 'encodings/index'
 
