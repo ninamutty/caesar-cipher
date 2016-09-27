@@ -3,7 +3,10 @@ Rails.application.routes.draw do
 
   get 'vigenere_encode/new'
 
+  post 'vigenere_encode/show'
   get 'vigenere_encode/show'
+
+
 
   get 'decoding/index'
 

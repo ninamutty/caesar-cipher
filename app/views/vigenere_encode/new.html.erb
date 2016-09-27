@@ -1,2 +1,12 @@
-<h1>VigenereEncode#new</h1>
-<p>Find me in app/views/vigenere_encode/new.html.erb</p>
+<h1>Encode a Message with Vigenere</h1>
+
+<form action="show" method="post" accept-charset="utf-8">
+  <label for="shift"> Offset Letters (give three!): </label>
+  <input type="text" name="shift" id="shift" />   <%# name is how you access it in params field %>
+
+  <label for="message"> Your Message: </label>
+  <input type="text" name="message" id="message" />
+
+  <input type=submit value="Encode!" />
+  <%# The type="submit" is what makes it look like a button %>
+</form>
