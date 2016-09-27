@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'vigenere_encode/index'
+
+  get 'vigenere_encode/new'
+
+  get 'vigenere_encode/show'
+
   get 'decoding/index'
 
   get 'decoding/new'
