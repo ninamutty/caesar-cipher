@@ -4,6 +4,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.7'
 #Gem for Caesar Cipher
 gem 'caesar', '~> 0.3'
+#Gem for vigenere cipher
+gem 'vigenere', '~> 0.1'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
